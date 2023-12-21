@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+	font-family: var(--font-main);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+img {
+	display: block;
+}
+
+.title-1 {
+	color: var(--accent);
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 130%; /* 78px */
+	letter-spacing: -0.5px;
+
+	text-align: center;
+	margin-bottom: 60px;
+
+	@media (max-width: 620px) {
+		margin-bottom: 30px;
+		font-size: 40px;
+	}
+}
+
+.title-2 {
+	margin-bottom: 10px;
+	font-size: 30px;
+
+	@media (max-width: 620px) {
+		margin-bottom: 30px;
+		font-size: 40px;
+	}
+}
